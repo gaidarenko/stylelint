@@ -1,6 +1,7 @@
 # Head
 
 - Added: `value-list-max-empty-lines` rule.
+- Fixed: `media-feature-no-missing-punctuation` no longer delivers false positives for scss operators.
 
 # 7.1.0
 

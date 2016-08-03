@@ -19,7 +19,7 @@ testRule(rule, {
     code: "@if {} @else {}",
   }, {
     code: "@media (min-width: 300px) {}",
-  }, {
+  },  {
     code: "@mEdIa (min-width: 300px) {}",
   }, {
     code: "@MEDIA (min-width: 300px) {}",
@@ -60,6 +60,9 @@ testRule(rule, {
     description: "ignore non-standard complex values",
   }, {
     code: "@media screen and (max-width:($var - 42px)) {}",
+    description: "ignore non-standard complex SCSS values",
+  }, {
+    code: "@media (max-width: $content-size + $side * 2) {}",
     description: "ignore non-standard complex SCSS values",
   } ],
 
