@@ -1,3 +1,7 @@
+# Head
+
+- Added: `declaration-block-no-redundant-longhand-properties` rule.
+
 # 7.1.0
 
 - Added: `block-closing-brace-empty-line-before` rule.
